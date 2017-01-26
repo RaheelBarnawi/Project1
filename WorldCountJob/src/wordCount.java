@@ -13,7 +13,7 @@ import org.apache.hadoop.mapred.JobConf;
 
 
 public class wordCount extends Configured implements Tool  {
-
+// this is the first project in mapreduce
 	@Override
 	public int run(String[] args) throws Exception {
 		if(args.length<2)
