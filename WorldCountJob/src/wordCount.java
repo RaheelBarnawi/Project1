@@ -35,6 +35,7 @@ public class wordCount extends Configured implements Tool  {
 	}
 public  static void main (String args[]) throws Exception
 {
+	// this is atest
 	int exitCode = ToolRunner.run(new wordCount(), args);
 	System.exit(exitCode);
 }
